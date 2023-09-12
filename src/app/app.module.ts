@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
 import { PokeDetailComponent } from './components/poke-detail/poke-detail.component';
+import { PokeTableComponent } from './components/poke-table/poke-table.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FooterComponent,
     HeaderComponent,
-    PokeDetailComponent
+    PokeDetailComponent,
+    PokeTableComponent
   ],
   imports: [
     BrowserModule,
