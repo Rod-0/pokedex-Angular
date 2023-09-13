@@ -23,7 +23,7 @@ export class PokeTableComponent {
   }
 
   ngOnInit() {
-    this.dataSource.paginator = this.paginator;
+
     this.getPokemon();
   }
 
